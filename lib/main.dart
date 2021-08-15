@@ -58,30 +58,6 @@ class _StaggeredGridExampleState extends State<StaggeredGridExample> {
       label: 'Cotton Dress',
     ),
   ];
-
-  var x = [
-    {
-      'image':
-          'https://images.unsplash.com/photo-1611601322175-ef8ec8c85f01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80',
-      'label': 'Cotton Dress',
-    },
-    {
-      'image':
-          'https://images.unsplash.com/photo-1612838856042-18756ccc202c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=625&q=80',
-      'label': 'Cotton T-Shirt',
-    },
-    {
-      'image':
-          'https://images.unsplash.com/photo-1581338834647-b0fb40704e21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
-      'label': 'shirts',
-    },
-    {
-      'image':
-          'https://images.unsplash.com/photo-1611601322175-ef8ec8c85f01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80',
-      'label': 'Trousers',
-    },
-  ];
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
